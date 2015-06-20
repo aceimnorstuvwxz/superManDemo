@@ -66,6 +66,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\chenbingfeng\freegit\superManDemo\cocos2d;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
@@ -178,6 +179,38 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\btn_move.plist" />
+    <None Include="..\Resources\btn_snow.plist" />
+    <None Include="..\Resources\explosion.plist" />
+    <None Include="..\Resources\pig.plist" />
+    <None Include="..\Resources\resources.plist" />
+    <None Include="..\Resources\snow.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\btn_yellow.png" />
+    <Image Include="..\Resources\content_bg.png" />
+    <Image Include="..\Resources\fire.png" />
+    <Image Include="..\Resources\girl.png" />
+    <Image Include="..\Resources\img_bg_1.jpg" />
+    <Image Include="..\Resources\img_bg_2.jpg" />
+    <Image Include="..\Resources\img_bg_3.jpg" />
+    <Image Include="..\Resources\img_bg_4.jpg" />
+    <Image Include="..\Resources\img_bg_5.jpg" />
+    <Image Include="..\Resources\index_bg.jpg" />
+    <Image Include="..\Resources\LOGO.png" />
+    <Image Include="..\Resources\number_large.png" />
+    <Image Include="..\Resources\number_small.png" />
+    <Image Include="..\Resources\pig.png" />
+    <Image Include="..\Resources\purple_base.png" />
+    <Image Include="..\Resources\resources.png" />
+    <Image Include="..\Resources\snow.png" />
+    <Image Include="..\Resources\star.png" />
+    <Image Include="..\Resources\start_game_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\level.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

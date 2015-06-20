@@ -86,4 +86,88 @@
       <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\btn_move.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\btn_snow.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explosion.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pig.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\resources.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\snow.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\btn_yellow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\content_bg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\fire.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\girl.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\img_bg_1.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\img_bg_2.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\img_bg_3.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\img_bg_4.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\img_bg_5.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\index_bg.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\LOGO.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\number_large.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\number_small.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\pig.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\purple_base.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\resources.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\snow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\star.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\start_game_text.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\level.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
 </Project>

@@ -118,14 +118,14 @@ void XMLParser::textHandler(void *ctx, const char *s, int len)
 		return;
 	
 	string value((char*)s, 0, len);
-	CCLog("s=%s, len=%d", value.c_str(), value.length());
+	//CCLOG("s=%s, len=%d", value.c_str(), value.length());
 	//是否全是非正常字符
 	bool noValue = true;
 	
 	for(int i = 0; i < value.length(); ++i)
 	{
 		char c = value.at(i);
-		CCLog("v=%d", c);
+		//CCLOG("v=%d", c);
 
 		if(c != SPACE && c != NEXTLINE && c != TAB)
 		{

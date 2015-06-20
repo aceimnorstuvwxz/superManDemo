@@ -13,7 +13,7 @@
 #endif
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-extern void showAds(bool show);
+//extern void showAds(bool show);
 #endif
 
 USING_NS_CC_EXT;
@@ -135,7 +135,7 @@ bool GameScene::init()
 		g_gameTime = 0;
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-		showAds(false);
+		//showAds(false);
 #endif
 
 		bRet = true;
@@ -402,7 +402,7 @@ void GameScene::explosionEndDid()
 	scene->addChild(layer);
 
 	#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-		showAds(true);
+	//	showAds(true);
 	#endif
 }
 

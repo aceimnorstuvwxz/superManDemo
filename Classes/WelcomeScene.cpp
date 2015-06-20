@@ -5,7 +5,7 @@
 USING_NS_CC;
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-extern void showAds(bool show);
+//extern void showAds(bool show);
 #endif
 
 
@@ -112,7 +112,7 @@ bool WelcomeLayer::init()
 	emitter2->runAction(path2->clone());
 
 	#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-		showAds(true);
+		//showAds(true);
 	#endif
 
     return true;
